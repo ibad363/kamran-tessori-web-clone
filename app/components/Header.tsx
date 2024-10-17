@@ -33,11 +33,11 @@ const Header = () => {
     // </header>
 
     // copy of header for practice
-    <header className='relative flex justify-around items-center bg-[#044e83] text-white w-full h-24'>
-        <div><img src="/assets/logo.png" alt="Logo" className='w-24 h-30 absolute left-10 top-6'/></div>
+    <header className='relative flex justify-around items-center bg-[#044e83] text-white w-full h-20 max-md:text-black'>
+        <div><img src="/assets/logo.png" alt="Logo" className='w-24 h-30 absolute left-10 top-4'/></div>
         <h1 className='font-bold text-2xl text-[#b9d8f3]'>Tuition Free Education Program on Latest Technologies</h1>
         <nav>
-          <ul className='flex space-x-4 '>
+          <ul className='flex space-x-9 '>
             <Link href="/"><li className="hover:text-gray-300">Home</li></Link>
             <Link href="/"><li className="hover:text-gray-300">Apply</li></Link>
             <Link href="/"><li className="hover:text-gray-300">Jobs</li></Link>
