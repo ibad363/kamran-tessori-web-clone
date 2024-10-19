@@ -1,13 +1,9 @@
-import Image from "next/image";
-import Header from "./components/Header";
-import Page1 from "./components/Page1";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <>
-    <Header/>
-    
-    <Page1/>
+    <Hero/>
     </>
   );
 }
